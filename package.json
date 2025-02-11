@@ -18,7 +18,6 @@
     "dev": "node-modules-inspector",
     "lint": "eslint .",
     "release": "bumpp && pnpm publish",
-    "typecheck": "tsc --noEmit",
     "prepare": "simple-git-hooks"
   },
   "dependencies": {
