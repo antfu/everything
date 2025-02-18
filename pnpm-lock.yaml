@@ -123,11 +123,11 @@ importers:
         specifier: ^0.1.4
         version: 0.1.4
       node-modules-inspector:
-        specifier: ^0.1.8
-        version: 0.1.8(db0@0.2.3)(ioredis@5.4.2)
+        specifier: ^0.1.9
+        version: 0.1.9(db0@0.2.3)(ioredis@5.4.2)
       node-modules-tools:
-        specifier: ^0.1.8
-        version: 0.1.8
+        specifier: ^0.1.9
+        version: 0.1.9
       nuxt:
         specifier: ^3.15.4
         version: 3.15.4(@parcel/watcher@2.5.1)(@types/node@22.13.4)(db0@0.2.3)(eslint@9.20.1(jiti@2.4.2))(ioredis@5.4.2)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.34.7)(terser@5.39.0)(tsx@4.19.2)(typescript@5.7.3)(vite@6.1.0(@types/node@22.13.4)(jiti@2.4.2)(terser@5.39.0)(tsx@4.19.2)(yaml@2.7.0))(yaml@2.7.0)
@@ -4580,12 +4580,12 @@ packages:
   node-mock-http@1.0.0:
     resolution: {integrity: sha512-0uGYQ1WQL1M5kKvGRXWQ3uZCHtLTO8hln3oBjIusM75WoesZ909uQJs/Hb946i2SS+Gsrhkaa6iAO17jRIv6DQ==}
 
-  node-modules-inspector@0.1.8:
-    resolution: {integrity: sha512-FWv5NoTi6irXJsDqW6noe+6I4fepGl3WXMY8j78o0yxEqfcPWBHvm0xEVR2gseDQqWS7OhHPVFqxvggVVJ6FZQ==}
+  node-modules-inspector@0.1.9:
+    resolution: {integrity: sha512-4mk2NKNSZSslB7O1SeXJDovjAePy3cgaXVqFJi+VamyNWJL1AoHhsK8YGEqaxyEr0G2v5lX3K9qOYpYt4yofTw==}
     hasBin: true
 
-  node-modules-tools@0.1.8:
-    resolution: {integrity: sha512-xps8CAnPaBSMQwr2v7aFDIASZrPO9dEaKMZQMMbpwmihFZ9Vc0K80pbMeClEMQgzgDrmi4FFHfLR996CKyqRCw==}
+  node-modules-tools@0.1.9:
+    resolution: {integrity: sha512-xbZTgZEg945SkRg9iYPuMcUdtrI8U+xYm+ILVY5sgBC8OuDG3Tg06S8mqzQP2ID1AQL9BSu5KcAT3Cjl/7GnXA==}
 
   node-releases@2.0.19:
     resolution: {integrity: sha512-xxOWJsBKtzAq7DY0J+DTzuz58K8e7sJbdgwkbMWQe8UYB6ekmsQ45q0M/tJDsGaZmbC+l7n57UV8Hl5tHxO9uw==}
@@ -11965,7 +11965,7 @@ snapshots:
 
   node-mock-http@1.0.0: {}
 
-  node-modules-inspector@0.1.8(db0@0.2.3)(ioredis@5.4.2):
+  node-modules-inspector@0.1.9(db0@0.2.3)(ioredis@5.4.2):
     dependencies:
       birpc: 2.2.0
       cac: 6.7.14
@@ -11978,7 +11978,7 @@ snapshots:
       launch-editor: 2.10.0
       mlly: 1.7.4
       mrmime: 2.0.1
-      node-modules-tools: 0.1.8
+      node-modules-tools: 0.1.9
       open: 10.1.0
       pathe: 2.0.3
       picocolors: 1.1.1
@@ -12009,7 +12009,7 @@ snapshots:
       - uploadthing
       - utf-8-validate
 
-  node-modules-tools@0.1.8:
+  node-modules-tools@0.1.9:
     dependencies:
       p-limit: 6.2.0
       package-manager-detector: 0.2.9
