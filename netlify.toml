@@ -1,0 +1,6 @@
+[build]
+publish = ".node-modules-inspector"
+command = "pnpm run build"
+
+[build.environment]
+NODE_VERSION = "22"
