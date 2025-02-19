@@ -14,10 +14,13 @@ export default defineConfig({
   excludeDependenciesOf: [
     'eslint',
     'webpack',
+    'jsdom',
     '@typescript-eslint/eslint-plugin',
     '@typescript-eslint/utils',
+    '@vercel/nft',
   ],
   excludePackages: [
     'typescript',
+    'pnpm',
   ],
 })
