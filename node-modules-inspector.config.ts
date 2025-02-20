@@ -3,8 +3,8 @@ import { defineConfig } from 'node-modules-inspector'
 export default defineConfig({
   name: '@antfu/everything',
   defaultFilters: {
-    'source-type': 'prod',
-    'exclude-workspace': true,
+    sourceType: 'prod',
+    excludeWorkspace: true,
   },
   defaultSettings: {
     showPublishTimeBadge: true,
