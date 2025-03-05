@@ -231,6 +231,9 @@ importers:
       lint-staged:
         specifier: ^15.4.3
         version: 15.4.3
+      netlify-plugin-cache:
+        specifier: ^1.0.3
+        version: 1.0.3
       pnpm:
         specifier: ^10.5.2
         version: 10.5.2
@@ -4795,6 +4798,9 @@ packages:
 
   neo-async@2.6.2:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
+
+  netlify-plugin-cache@1.0.3:
+    resolution: {integrity: sha512-CTOwNWrTOP59T6y6unxQNnp1WX702v2R/faR5peSH94ebrYfyY4zT5IsRcIiHKq57jXeyCrhy0GLuTN8ktzuQg==}
 
   nitropack@2.10.4:
     resolution: {integrity: sha512-sJiG/MIQlZCVSw2cQrFG1H6mLeSqHlYfFerRjLKz69vUfdu0EL2l0WdOxlQbzJr3mMv/l4cOlCCLzVRzjzzF/g==}
@@ -12417,6 +12423,8 @@ snapshots:
   natural-orderby@5.0.0: {}
 
   neo-async@2.6.2: {}
+
+  netlify-plugin-cache@1.0.3: {}
 
   nitropack@2.10.4(typescript@5.8.2):
     dependencies:

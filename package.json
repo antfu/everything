@@ -97,6 +97,7 @@
     "@types/node": "^22.13.9",
     "eslint": "^9.21.0",
     "lint-staged": "^15.4.3",
+    "netlify-plugin-cache": "^1.0.3",
     "pnpm": "^10.5.2",
     "simple-git-hooks": "^2.11.1",
     "typescript": "^5.8.2",
