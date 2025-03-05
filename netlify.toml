@@ -4,6 +4,7 @@ command = "pnpm run build"
 
 [build.environment]
 NODE_VERSION = "22"
+NODE_OPTIONS = "--max_old_space_size=8192"
 
 [[plugins]]
   package = "netlify-plugin-cache"
