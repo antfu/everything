@@ -23,4 +23,5 @@ export default defineConfig({
     'typescript',
     'pnpm',
   ],
+  publint: true,
 })
