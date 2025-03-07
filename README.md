@@ -1,6 +1,6 @@
 # @antfu/everything
 
-Every (active) Packages Anthony Fu Created or Maintains
+Every (active) pnpm Packages Anthony Fu Created or Maintains
 
 I used this repo to track package versions and their dependencies with [node-module-inspector](https://github.com/antfu/node-modules-inspector).
 
