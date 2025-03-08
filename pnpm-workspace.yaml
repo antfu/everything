@@ -41,7 +41,7 @@ catalogs:
   visual:
     '@eslint/config-inspector': ^1.0.2
     vite-plugin-inspect: ^11.0.0
-    node-modules-inspector: ^0.4.0
+    node-modules-inspector: ^0.4.2
 
   shiki:
     shiki: ^3.1.0
@@ -75,7 +75,7 @@ catalogs:
     markdown-it-magic-link: ^0.1.4
     drauu: ^0.4.3
     diff-match-patch-es: ^1.0.1
-    node-modules-tools: ^0.4.0
+    node-modules-tools: ^0.4.2
     package-manager-detector: ^0.2.11
     pnpm-catalogs-utils: ^0.1.0
     quansync: ^0.2.8

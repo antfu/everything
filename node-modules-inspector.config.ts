@@ -22,6 +22,9 @@ export default defineConfig({
   excludePackages: [
     'typescript',
     'pnpm',
+    'netlify-plugin-cache',
+    'lint-staged',
+    'simple-git-hooks',
   ],
   publint: true,
 })
