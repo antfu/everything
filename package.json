@@ -105,16 +105,6 @@
     "typescript": "catalog:unrelated",
     "vite": "catalog:vite"
   },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "@parcel/watcher",
-      "sharp",
-      "vue-demi"
-    ]
-  },
-  "resolutions": {
-    "@nuxt/devtools": "^2.2.1"
-  },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
   },

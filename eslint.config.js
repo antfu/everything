@@ -5,6 +5,6 @@ export default antfu(
   {
     type: 'lib',
     ignores: ['netlify.toml'],
-    pnpmCatalogs: true,
+    pnpm: true,
   },
 )
