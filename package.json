@@ -2,7 +2,7 @@
   "name": "@antfu/everything",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@10.6.1",
+  "packageManager": "pnpm@10.6.2",
   "description": "Every Packages Created by Anthony Fu",
   "author": "Anthony Fu <anthonyfu117@hotmail.com>",
   "license": "MIT",
@@ -34,6 +34,7 @@
     "@stylistic/eslint-plugin": "catalog:eslint",
     "@unocss/astro": "catalog:unocss",
     "@unocss/cli": "catalog:unocss",
+    "@unocss/inspector": "catalog:visual",
     "@unocss/nuxt": "catalog:unocss",
     "@unocss/postcss": "catalog:unocss",
     "@unocss/reset": "catalog:unocss",
@@ -89,11 +90,13 @@
     "unplugin-vue-components": "catalog:plugins",
     "unplugin-vue-markdown": "catalog:plugins",
     "uqr": "catalog:libs",
+    "vite": "catalog:vite",
     "vite-node": "catalog:vite",
     "vite-plugin-inspect": "catalog:visual",
     "vite-ssg": "catalog:vite",
     "vitest": "catalog:vite",
-    "vscode-ext-gen": "catalog:cli"
+    "vscode-ext-gen": "catalog:cli",
+    "vue": "catalog:vue"
   },
   "devDependencies": {
     "@types/node": "catalog:unrelated",
@@ -102,8 +105,7 @@
     "netlify-plugin-cache": "catalog:unrelated",
     "pnpm": "catalog:unrelated",
     "simple-git-hooks": "catalog:unrelated",
-    "typescript": "catalog:unrelated",
-    "vite": "catalog:vite"
+    "typescript": "catalog:unrelated"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
