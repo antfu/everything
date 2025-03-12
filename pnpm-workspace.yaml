@@ -74,12 +74,12 @@ catalogs:
     '@slidev/cli': ^51.4.0
 
   unocss:
-    '@unocss/astro': ^66.1.0-beta.3
-    '@unocss/cli': ^66.1.0-beta.3
-    '@unocss/nuxt': ^66.1.0-beta.3
-    '@unocss/postcss': ^66.1.0-beta.3
-    '@unocss/reset': ^66.1.0-beta.3
-    unocss: ^66.1.0-beta.3
+    '@unocss/astro': ^66.0.0
+    '@unocss/cli': ^66.0.0
+    '@unocss/nuxt': ^66.0.0
+    '@unocss/postcss': ^66.0.0
+    '@unocss/reset': ^66.0.0
+    unocss: ^66.0.0
 
   unrelated:
     '@types/node': ^22.13.10
