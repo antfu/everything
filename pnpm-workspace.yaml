@@ -2,7 +2,8 @@ packages: []
 
 catalogs:
   cli:
-    '@antfu/ni': ^24.1.0
+    '@antfu/ni': ^24.2.0
+    '@antfu/nip': ^0.0.0
     bumpp: ^10.1.0
     case-police: ^1.0.0
     sponsorkit: ^16.4.1
@@ -19,7 +20,7 @@ catalogs:
     eslint-plugin-format: ^1.0.1
     eslint-plugin-pnpm-catalogs: ^0.1.0
     eslint-processor-vue-blocks: ^2.0.0
-    eslint-typegen: ^2.0.0
+    eslint-typegen: ^2.1.0
     eslint-vitest-rule-tester: ^2.0.0
 
   libs:
@@ -37,7 +38,7 @@ catalogs:
     markdown-it-async: ^2.2.0
     markdown-it-github-alerts: ^0.3.1
     markdown-it-magic-link: ^0.1.4
-    node-modules-tools: ^0.5.2
+    node-modules-tools: ^0.5.5
     package-manager-detector: ^1.0.0
     pnpm-catalogs-utils: ^0.1.0
     quansync: ^0.2.8
@@ -48,7 +49,7 @@ catalogs:
     uqr: ^0.1.2
 
   nuxt:
-    '@nuxt/devtools': ^2.2.1
+    '@nuxt/devtools': ^2.3.0
     '@nuxt/eslint': ^1.2.0
     '@nuxt/icon': ^1.11.0
     nuxt: ^3.16.0
@@ -63,7 +64,7 @@ catalogs:
   shiki:
     shiki: ^3.2.1
     shiki-codegen: ^3.2.1
-    shiki-magic-move: ^1.0.1
+    shiki-magic-move: ^1.1.0
     shiki-stream: ^0.1.1
     shiki-transformer-color-highlight: ^1.0.0
     shiki-transformer-inlay-iconify: ^1.0.0
@@ -86,27 +87,28 @@ catalogs:
     eslint: ^9.22.0
     lint-staged: ^15.5.0
     netlify-plugin-cache: ^1.0.3
-    pnpm: ^10.6.2
+    pnpm: ^10.6.3
     simple-git-hooks: ^2.11.1
     typescript: ^5.8.2
 
   visual:
     '@eslint/config-inspector': ^1.0.2
-    '@unocss/inspector': ^66.1.0-beta.3
-    node-modules-inspector: ^0.5.2
+    '@unocss/inspector': ^66.0.0
+    node-modules-inspector: ^0.5.5
     vite-plugin-inspect: ^11.0.0
 
   vite:
-    vite: ^6.2.1
+    vite: ^6.2.2
     vite-node: ^3.0.8
+    vite-plugin-remote-assets: ^2.0.0
     vite-ssg: ^25.2.0
     vitest: ^3.0.8
 
   vue:
     '@vueuse/core': ^13.0.0
     '@vueuse/math': ^13.0.0
-
     vue: ^3.5.13
+
 onlyBuiltDependencies:
   - '@parcel/watcher'
   - esbuild
