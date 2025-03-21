@@ -2,7 +2,7 @@ packages: []
 
 catalogs:
   cli:
-    '@antfu/ni': ^24.2.0
+    '@antfu/ni': ^24.3.0
     '@antfu/nip': ^0.0.0
     bumpp: ^10.1.0
     case-police: ^1.0.0
@@ -11,7 +11,7 @@ catalogs:
     vscode-ext-gen: ^1.0.2
 
   eslint:
-    '@antfu/eslint-config': ^4.10.1
+    '@antfu/eslint-config': ^4.10.2
     '@stylistic/eslint-plugin': ^4.2.0
     eslint-flat-config-utils: ^2.0.1
     eslint-merge-processors: ^2.0.0
@@ -21,7 +21,7 @@ catalogs:
     eslint-plugin-pnpm-catalogs: ^0.1.0
     eslint-processor-vue-blocks: ^2.0.0
     eslint-typegen: ^2.1.0
-    eslint-vitest-rule-tester: ^2.0.0
+    eslint-vitest-rule-tester: ^2.1.0
 
   libs:
     '@antfu/install-pkg': ^1.0.0
@@ -38,10 +38,10 @@ catalogs:
     markdown-it-async: ^2.2.0
     markdown-it-github-alerts: ^0.3.1
     markdown-it-magic-link: ^0.1.4
-    node-modules-tools: ^0.5.5
-    package-manager-detector: ^1.0.0
+    node-modules-tools: ^0.5.7
+    package-manager-detector: ^1.1.0
     pnpm-catalogs-utils: ^0.1.0
-    quansync: ^0.2.8
+    quansync: ^0.2.10
     strip-literal: ^3.0.0
     structured-clone-es: ^1.0.0
     unconfig: ^7.3.1
@@ -49,13 +49,13 @@ catalogs:
     uqr: ^0.1.2
 
   nuxt:
-    '@nuxt/devtools': ^2.3.0
+    '@nuxt/devtools': ^2.3.1
     '@nuxt/eslint': ^1.2.0
     '@nuxt/icon': ^1.11.0
-    nuxt: ^3.16.0
+    nuxt: ^3.16.1
 
   plugins:
-    unplugin: ^2.2.0
+    unplugin: ^2.2.1
     unplugin-auto-import: ^19.1.1
     unplugin-icons: ^22.1.0
     unplugin-vue-components: ^28.4.1
@@ -87,22 +87,22 @@ catalogs:
     eslint: ^9.22.0
     lint-staged: ^15.5.0
     netlify-plugin-cache: ^1.0.3
-    pnpm: ^10.6.3
-    simple-git-hooks: ^2.11.1
+    pnpm: ^10.6.5
+    simple-git-hooks: ^2.12.1
     typescript: ^5.8.2
 
   visual:
     '@eslint/config-inspector': ^1.0.2
     '@unocss/inspector': ^66.0.0
-    node-modules-inspector: ^0.5.5
+    node-modules-inspector: ^0.5.7
     vite-plugin-inspect: ^11.0.0
 
   vite:
     vite: ^6.2.2
-    vite-node: ^3.0.8
+    vite-node: ^3.0.9
     vite-plugin-remote-assets: ^2.0.0
     vite-ssg: ^25.2.0
-    vitest: ^3.0.8
+    vitest: ^3.0.9
 
   vue:
     '@vueuse/core': ^13.0.0
