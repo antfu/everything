@@ -11,7 +11,7 @@ catalogs:
     vscode-ext-gen: ^1.0.2
 
   eslint:
-    '@antfu/eslint-config': ^4.11.0
+    '@antfu/eslint-config': ^4.12.0
     '@stylistic/eslint-plugin': ^4.2.0
     eslint-flat-config-utils: ^2.0.1
     eslint-merge-processors: ^2.0.0
@@ -38,7 +38,7 @@ catalogs:
     markdown-it-async: ^2.2.0
     markdown-it-github-alerts: ^1.0.0
     markdown-it-magic-link: ^0.1.4
-    node-modules-tools: ^0.6.4
+    node-modules-tools: ^0.6.5
     package-manager-detector: ^1.1.0
     pnpm-catalogs-utils: ^0.1.0
     quansync: ^0.2.10
@@ -51,7 +51,7 @@ catalogs:
   nuxt:
     '@nuxt/devtools': ^2.3.2
     '@nuxt/eslint': ^1.3.0
-    '@nuxt/icon': ^1.11.0
+    '@nuxt/icon': ^1.12.0
     nuxt: ^3.16.2
 
   plugins:
@@ -62,8 +62,8 @@ catalogs:
     unplugin-vue-markdown: ^28.3.1
 
   shiki:
-    shiki: ^3.2.1
-    shiki-codegen: ^3.2.1
+    shiki: ^3.2.2
+    shiki-codegen: ^3.2.2
     shiki-magic-move: ^1.1.0
     shiki-stream: ^0.1.2
     shiki-transformer-color-highlight: ^1.0.0
@@ -94,7 +94,7 @@ catalogs:
   visual:
     '@eslint/config-inspector': ^1.0.2
     '@unocss/inspector': ^66.0.0
-    node-modules-inspector: ^0.6.4
+    node-modules-inspector: ^0.6.5
     vite-plugin-inspect: ^11.0.0
 
   vite:
