@@ -5,12 +5,12 @@ catalogs:
     '@antfu/nip': ^0.1.0
     bumpp: ^10.2.3
     case-police: ^2.0.0
-    sponsorkit: ^16.5.0
-    taze: ^19.1.0
+    sponsorkit: ^17.0.0
+    taze: ^19.6.0
     vscode-ext-gen: ^1.1.0
   eslint:
-    '@antfu/eslint-config': ^5.2.1
-    '@stylistic/eslint-plugin': ^5.2.3
+    '@antfu/eslint-config': ^5.3.0
+    '@stylistic/eslint-plugin': ^5.3.1
     eslint-flat-config-utils: ^2.1.1
     eslint-merge-processors: ^2.0.0
     eslint-plugin-antfu: ^3.1.1
@@ -28,8 +28,8 @@ catalogs:
     drauu: ^0.4.3
     fast-npm-meta: ^0.4.6
     importx: ^0.5.2
-    local-pkg: ^1.1.1
-    magic-string: ^0.30.17
+    local-pkg: ^1.1.2
+    magic-string: ^0.30.19
     magic-string-stack: ^1.1.0
     magicast: ^0.3.5
     markdown-it-async: ^2.2.0
@@ -41,23 +41,23 @@ catalogs:
     quansync: ^0.2.11
     strip-literal: ^3.0.0
     structured-clone-es: ^1.0.0
-    unconfig: ^7.3.2
+    unconfig: ^7.3.3
     unimport: ^5.2.0
     uqr: ^0.1.2
   nuxt:
-    '@nuxt/devtools': ^2.6.2
-    '@nuxt/eslint': ^1.8.0
+    '@nuxt/devtools': ^2.6.3
+    '@nuxt/eslint': ^1.9.0
     '@nuxt/icon': ^2.0.0
-    nuxt: ^4.0.3
+    nuxt: ^4.1.1
   plugins:
-    unplugin: ^2.3.6
-    unplugin-auto-import: ^20.0.0
+    unplugin: ^2.3.10
+    unplugin-auto-import: ^20.1.0
     unplugin-icons: ^22.2.0
     unplugin-vue-components: ^29.0.0
     unplugin-vue-markdown: ^29.1.0
   shiki:
-    shiki: ^3.9.2
-    shiki-codegen: ^3.9.2
+    shiki: ^3.12.2
+    shiki-codegen: ^3.12.2
     shiki-magic-move: ^1.1.0
     shiki-stream: ^0.1.2
     shiki-transformer-color-highlight: ^1.0.0
@@ -67,35 +67,35 @@ catalogs:
   slidev:
     '@slidev/cli': ^52.1.0
   unocss:
-    '@unocss/astro': ^66.4.2
-    '@unocss/cli': ^66.4.2
-    '@unocss/nuxt': ^66.4.2
-    '@unocss/postcss': ^66.4.2
-    '@unocss/reset': ^66.4.2
-    unocss: ^66.4.2
+    '@unocss/astro': ^66.5.1
+    '@unocss/cli': ^66.5.1
+    '@unocss/nuxt': ^66.5.1
+    '@unocss/postcss': ^66.5.1
+    '@unocss/reset': ^66.5.1
+    unocss: ^66.5.1
   unrelated:
-    '@types/node': ^24.3.0
-    eslint: ^9.33.0
-    lint-staged: ^16.1.5
+    '@types/node': ^24.3.1
+    eslint: ^9.35.0
+    lint-staged: ^16.1.6
     netlify-plugin-cache: ^1.0.3
-    pnpm: ^10.14.0
+    pnpm: ^10.15.1
     simple-git-hooks: ^2.13.1
     typescript: ^5.9.2
   visual:
     '@eslint/config-inspector': ^1.2.0
-    '@unocss/inspector': ^66.4.2
+    '@unocss/inspector': ^66.5.1
     node-modules-inspector: ^1.1.1
-    vite-plugin-inspect: ^11.3.2
+    vite-plugin-inspect: ^11.3.3
   vite:
-    vite: ^7.1.2
+    vite: ^7.1.5
     vite-node: ^3.2.4
-    vite-plugin-remote-assets: ^2.0.0
+    vite-plugin-remote-assets: ^2.1.0
     vite-ssg: ^28.1.0
     vitest: ^3.2.4
   vue:
-    '@vueuse/core': ^13.6.0
-    '@vueuse/math': ^13.6.0
-    vue: ^3.5.18
+    '@vueuse/core': ^14.0.0-alpha.1
+    '@vueuse/math': ^14.0.0-alpha.1
+    vue: ^3.5.21
 onlyBuiltDependencies:
   - '@parcel/watcher'
   - esbuild
