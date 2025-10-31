@@ -1,101 +1,101 @@
 packages: []
 catalogs:
   cli:
-    '@antfu/ni': ^25.0.0
+    '@antfu/ni': ^27.0.1
     '@antfu/nip': ^0.1.0
-    bumpp: ^10.2.3
+    bumpp: ^10.3.1
     case-police: ^2.0.0
     sponsorkit: ^17.0.0
-    taze: ^19.6.0
-    vscode-ext-gen: ^1.1.0
+    taze: ^19.9.0
+    vscode-ext-gen: ^1.3.0
   eslint:
-    '@antfu/eslint-config': ^5.3.0
-    '@stylistic/eslint-plugin': ^5.3.1
-    eslint-flat-config-utils: ^2.1.1
+    '@antfu/eslint-config': ^6.2.0
+    '@stylistic/eslint-plugin': ^5.5.0
+    eslint-flat-config-utils: ^2.1.4
     eslint-merge-processors: ^2.0.0
     eslint-plugin-antfu: ^3.1.1
     eslint-plugin-command: ^3.3.1
-    eslint-plugin-format: ^1.0.1
+    eslint-plugin-format: ^1.0.2
     eslint-plugin-pnpm-catalogs: ^0.1.0
     eslint-processor-vue-blocks: ^2.0.0
     eslint-typegen: ^2.3.0
-    eslint-vitest-rule-tester: ^2.2.1
+    eslint-vitest-rule-tester: ^3.0.0
   libs:
     '@antfu/install-pkg': ^1.1.0
-    '@antfu/utils': ^9.2.0
-    birpc: ^2.5.0
+    '@antfu/utils': ^9.3.0
+    birpc: ^2.6.1
     diff-match-patch-es: ^1.0.1
     drauu: ^0.4.3
-    fast-npm-meta: ^0.4.6
+    fast-npm-meta: ^0.4.7
     importx: ^0.5.2
     local-pkg: ^1.1.2
-    magic-string: ^0.30.19
+    magic-string: ^0.30.21
     magic-string-stack: ^1.1.0
-    magicast: ^0.3.5
+    magicast: ^0.5.1
     markdown-it-async: ^2.2.0
     markdown-it-github-alerts: ^1.0.0
     markdown-it-magic-link: ^0.1.4
-    node-modules-tools: ^1.1.1
-    package-manager-detector: ^1.3.0
+    node-modules-tools: ^1.2.0
+    package-manager-detector: ^1.5.0
     pnpm-catalogs-utils: ^0.1.0
     quansync: ^0.2.11
-    strip-literal: ^3.0.0
+    strip-literal: ^3.1.0
     structured-clone-es: ^1.0.0
     unconfig: ^7.3.3
-    unimport: ^5.2.0
+    unimport: ^5.5.0
     uqr: ^0.1.2
   nuxt:
-    '@nuxt/devtools': ^2.6.3
-    '@nuxt/eslint': ^1.9.0
-    '@nuxt/icon': ^2.0.0
-    nuxt: ^4.1.1
+    '@nuxt/devtools': ^3.0.1
+    '@nuxt/eslint': ^1.10.0
+    '@nuxt/icon': ^2.1.0
+    nuxt: ^4.2.0
   plugins:
     unplugin: ^2.3.10
-    unplugin-auto-import: ^20.1.0
-    unplugin-icons: ^22.2.0
-    unplugin-vue-components: ^29.0.0
-    unplugin-vue-markdown: ^29.1.0
+    unplugin-auto-import: ^20.2.0
+    unplugin-icons: ^22.5.0
+    unplugin-vue-components: ^30.0.0
+    unplugin-vue-markdown: ^29.2.0
   shiki:
-    shiki: ^3.12.2
-    shiki-codegen: ^3.12.2
-    shiki-magic-move: ^1.1.0
+    shiki: ^3.14.0
+    shiki-codegen: ^3.14.0
+    shiki-magic-move: ^1.2.1
     shiki-stream: ^0.1.2
     shiki-transformer-color-highlight: ^1.0.0
     shiki-transformer-inlay-iconify: ^1.0.0
     twoslash: ^0.3.4
     twoslash-protocol: ^0.3.4
   slidev:
-    '@slidev/cli': ^52.1.0
+    '@slidev/cli': ^52.6.0
   unocss:
-    '@unocss/astro': ^66.5.1
-    '@unocss/cli': ^66.5.1
-    '@unocss/nuxt': ^66.5.1
-    '@unocss/postcss': ^66.5.1
-    '@unocss/reset': ^66.5.1
-    unocss: ^66.5.1
+    '@unocss/astro': ^66.5.4
+    '@unocss/cli': ^66.5.4
+    '@unocss/nuxt': ^66.5.4
+    '@unocss/postcss': ^66.5.4
+    '@unocss/reset': ^66.5.4
+    unocss: ^66.5.4
   unrelated:
-    '@types/node': ^24.3.1
-    eslint: ^9.35.0
-    lint-staged: ^16.1.6
+    '@types/node': ^24.9.2
+    eslint: ^9.38.0
+    lint-staged: ^16.2.6
     netlify-plugin-cache: ^1.0.3
-    pnpm: ^10.15.1
+    pnpm: ^10.20.0
     simple-git-hooks: ^2.13.1
-    typescript: ^5.9.2
+    typescript: ^5.9.3
   visual:
-    '@eslint/config-inspector': ^1.2.0
-    '@unocss/inspector': ^66.5.1
-    node-modules-inspector: ^1.1.1
+    '@eslint/config-inspector': ^1.3.0
+    '@unocss/inspector': ^66.5.4
+    node-modules-inspector: ^1.2.0
     vite-plugin-inspect: ^11.3.3
   vite:
-    vite: ^7.1.5
+    vite: ^7.1.12
     vite-node: ^3.2.4
     vite-plugin-remote-assets: ^2.1.0
-    vite-ssg: ^28.1.0
-    vitest: ^3.2.4
+    vite-ssg: ^28.2.2
+    vitest: ^4.0.6
   vue:
-    '@vueuse/core': ^14.0.0-alpha.1
-    '@vueuse/math': ^14.0.0-alpha.1
-    vue: ^3.5.21
+    '@vueuse/core': ^14.0.0
+    '@vueuse/math': ^14.0.0
+    vue: ^3.5.22
 onlyBuiltDependencies:
   - '@parcel/watcher'
   - esbuild

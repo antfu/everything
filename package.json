@@ -2,7 +2,7 @@
   "name": "@antfu/everything",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@10.15.1",
+  "packageManager": "pnpm@10.20.0",
   "description": "Every Packages Created by Anthony Fu",
   "author": "Anthony Fu <anthonyfu117@hotmail.com>",
   "license": "MIT",
