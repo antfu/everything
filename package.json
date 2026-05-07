@@ -2,7 +2,7 @@
   "name": "@antfu/everything",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@10.28.0",
+  "packageManager": "pnpm@10.33.4",
   "description": "Every Packages Created by Anthony Fu",
   "author": "Anthony Fu <anthonyfu117@hotmail.com>",
   "license": "MIT",
@@ -44,6 +44,7 @@
     "birpc": "catalog:libs",
     "bumpp": "catalog:cli",
     "case-police": "catalog:cli",
+    "devframe": "catalog:libs",
     "diff-match-patch-es": "catalog:libs",
     "drauu": "catalog:libs",
     "eslint-flat-config-utils": "catalog:eslint",
@@ -80,6 +81,7 @@
     "strip-literal": "catalog:libs",
     "structured-clone-es": "catalog:libs",
     "taze": "catalog:cli",
+    "tsnapi": "catalog:cli",
     "twoslash": "catalog:shiki",
     "twoslash-protocol": "catalog:shiki",
     "unconfig": "catalog:libs",
@@ -108,6 +110,10 @@
     "pnpm": "catalog:unrelated",
     "simple-git-hooks": "catalog:unrelated",
     "typescript": "catalog:unrelated"
+  },
+  "resolutions": {
+    "chokidar": "^5.0.0",
+    "semver": "^7.7.4"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
