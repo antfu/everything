@@ -1,5 +1,5 @@
 [build]
-publish = ".node-modules-inspector"
+publish = "dist/__node-modules-inspector"
 command = "pnpm run build"
 
 [build.environment]
