@@ -18,7 +18,7 @@
     "dev": "node-modules-inspector",
     "build": "node-modules-inspector build",
     "lint": "eslint .",
-    "release": "bumpp && pnpm publish",
+    "release": "bumpp",
     "prepare": "simple-git-hooks"
   },
   "dependencies": {
