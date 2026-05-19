@@ -51,7 +51,6 @@
     "eslint-plugin-antfu": "catalog:eslint",
     "eslint-plugin-command": "catalog:eslint",
     "eslint-plugin-format": "catalog:eslint",
-    "eslint-plugin-pnpm-catalogs": "catalog:eslint",
     "eslint-processor-vue-blocks": "catalog:eslint",
     "eslint-typegen": "catalog:eslint",
     "eslint-vitest-rule-tester": "catalog:eslint",
