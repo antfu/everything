@@ -2,7 +2,7 @@
   "name": "@antfu/everything",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@10.33.4",
+  "packageManager": "pnpm@11.1.3",
   "description": "Every Packages Created by Anthony Fu",
   "author": "Anthony Fu <anthonyfu117@hotmail.com>",
   "license": "MIT",
@@ -110,10 +110,6 @@
     "pnpm": "catalog:unrelated",
     "simple-git-hooks": "catalog:unrelated",
     "typescript": "catalog:unrelated"
-  },
-  "resolutions": {
-    "chokidar": "^5.0.0",
-    "semver": "^7.8.0"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
