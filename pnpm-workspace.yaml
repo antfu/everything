@@ -9,103 +9,114 @@ autoInstallPeers: false
 packages: []
 overrides:
   chokidar: ^5.0.0
-  semver: ^7.8.0
+  semver: ^7.8.5
 catalogs:
   cli:
-    '@antfu/ni': ^30.1.0
-    bumpp: ^11.1.0
+    '@antfu/ni': ^30.3.0
+    bumpp: ^12.1.1
     case-police: ^2.2.1
+    changelogithub: ^15.0.4
     sponsorkit: ^17.1.1
-    taze: ^19.13.0
-    tsnapi: ^0.3.3
+    taze: ^19.16.0
+    tsnapi: ^1.2.0
     vscode-ext-gen: ^1.6.0
+  devframe:
+    '@devframes/hub': ^0.7.15
+    '@devframes/plugin-a11y': ^0.7.15
+    '@devframes/plugin-code-server': ^0.7.15
+    '@devframes/plugin-git': ^0.7.15
+    '@devframes/plugin-inspect': ^0.7.15
+    '@devframes/plugin-messages': ^0.7.15
+    '@devframes/plugin-terminals': ^0.7.15
+    devframe: ^0.7.15
   eslint:
-    '@antfu/eslint-config': ^9.0.0
+    '@antfu/eslint-config': ^9.2.0
     '@stylistic/eslint-plugin': ^5.10.0
     eslint-flat-config-utils: ^3.2.0
     eslint-merge-processors: ^2.0.0
     eslint-plugin-antfu: ^3.2.3
-    eslint-plugin-command: ^3.5.2
+    eslint-plugin-command: ^3.5.3
     eslint-plugin-format: ^2.0.1
     eslint-processor-vue-blocks: ^2.0.0
     eslint-typegen: ^2.3.1
     eslint-vitest-rule-tester: ^3.1.0
   libs:
-    '@antfu/install-pkg': ^1.1.0
+    '@antfu/install-pkg': ^2.0.1
     '@antfu/utils': ^9.3.0
     birpc: ^4.0.0
-    devframe: ^0.3.0
-    diff-match-patch-es: ^1.0.1
+    diff-match-patch-es: ^2.0.0
     drauu: ^1.0.0
-    fast-npm-meta: ^1.5.1
-    local-pkg: ^1.2.0
-    magic-string: ^0.30.21
+    fast-npm-meta: ^2.2.0
+    local-pkg: ^1.2.1
+    magic-string: ^1.1.0
     magic-string-stack: ^1.1.0
     magicast: ^0.5.3
     markdown-it-async: ^2.2.0
     markdown-it-github-alerts: ^1.0.1
     markdown-it-magic-link: ^0.1.4
-    node-modules-tools: ^2.1.2
-    package-manager-detector: ^1.6.0
+    node-modules-tools: ^2.3.1
+    package-manager-detector: ^1.8.0
     pnpm-catalogs-utils: ^0.1.0
     quansync: ^1.0.0
     strip-literal: ^3.1.0
-    structured-clone-es: ^2.0.0
+    structured-clone-es: ^2.0.1
     unconfig: ^7.5.0
-    unimport: ^6.3.0
+    unimport: ^6.3.1
     uqr: ^0.1.3
   nuxt:
-    '@nuxt/devtools': ^4.0.0-alpha.4
-    '@nuxt/eslint': ^1.15.2
-    '@nuxt/icon': ^2.2.2
-    nuxt: ^4.4.6
+    '@nuxt/devtools': ^4.0.0-alpha.9
+    '@nuxt/eslint': ^1.16.0
+    '@nuxt/icon': ^2.4.1
+    nuxt: ^4.5.1
   plugins:
-    unplugin: ^3.0.0
+    unplugin: ^3.3.0
     unplugin-auto-import: ^21.0.0
     unplugin-icons: ^23.0.1
     unplugin-vue-components: ^32.1.0
-    unplugin-vue-markdown: ^31.0.0
+    unplugin-vue-markdown: ^32.0.0
   shiki:
-    shiki: ^4.1.0
-    shiki-codegen: ^4.1.0
-    shiki-magic-move: ^1.3.2
-    shiki-stream: ^0.1.4
+    '@shikijs/magic-move': ^4.3.1
+    '@shikijs/stream': ^4.3.1
+    shiki: ^4.3.1
+    shiki-codegen: ^4.3.1
     shiki-transformer-color-highlight: ^1.1.0
     shiki-transformer-inlay-iconify: ^1.0.0
-    twoslash: ^0.3.8
-    twoslash-protocol: ^0.3.8
+    twoslash: ^0.3.9
+    twoslash-protocol: ^0.3.9
   slidev:
-    '@slidev/cli': ^52.15.2
+    '@slidev/cli': ^52.18.0
   unocss:
-    '@unocss/astro': ^66.6.8
-    '@unocss/cli': ^66.6.8
-    '@unocss/nuxt': ^66.6.8
-    '@unocss/postcss': ^66.6.8
-    '@unocss/reset': ^66.6.8
-    unocss: ^66.6.8
+    '@unocss/astro': ^66.7.5
+    '@unocss/cli': ^66.7.5
+    '@unocss/nuxt': ^66.7.5
+    '@unocss/postcss': ^66.7.5
+    '@unocss/reset': ^66.7.5
+    unocss: ^66.7.5
   unrelated:
-    '@types/node': ^25.9.1
-    eslint: ^10.4.0
-    lint-staged: ^17.0.5
+    '@types/node': ^26.1.2
+    eslint: ^10.8.0
+    lint-staged: ^17.2.0
     netlify-plugin-cache: ^1.0.3
-    pnpm: ^11.1.3
+    pnpm: ^11.18.0
     simple-git-hooks: ^2.13.1
     typescript: ^6.0.3
   visual:
-    '@eslint/config-inspector': ^3.0.2
-    '@unocss/inspector': ^66.6.8
-    node-modules-inspector: ^2.1.2
-    vite-plugin-inspect: ^12.0.0-beta.2
+    '@eslint/config-inspector': ^3.1.0
+    '@unocss/inspector': ^66.7.5
+    node-modules-inspector: ^2.3.1
+    vite-plugin-inspect: ^12.0.2
   vite:
-    vite: ^8.0.13
+    '@vitejs/devtools': ^0.4.10
+    '@vitejs/devtools-kit': ^0.4.10
+    vite: ^8.1.5
     vite-node: ^6.0.0
     vite-plugin-remote-assets: ^2.1.0
     vite-ssg: ^28.3.0
-    vitest: ^4.1.7
+    vitest: ^4.1.10
   vue:
-    '@vueuse/core': ^14.3.0
-    '@vueuse/math': ^14.3.0
-    vue: ^3.5.34
+    '@vueuse/core': ^14.4.0
+    '@vueuse/math': ^14.4.0
+    vue: ^3.5.40
 allowBuilds:
   '@parcel/watcher': true
   esbuild: true
